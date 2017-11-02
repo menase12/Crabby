@@ -1,0 +1,130 @@
+.standardimage{
+    height: 200px;
+    margin-right: 5%;
+}
+.standardimage1{
+    height: 100px;
+    margin-left: 5%;
+}
+.standardimage2{
+    height: 200px;
+    margin-right: -5%;
+}
+.standardimage4{
+    height: 300px;
+    margin-right: 5%;
+}
+text {word-spacing: 20px;}
+.standardimage3{
+    width: 600px;
+    margin-right: 5%;}
+.shrikhand{
+    font-family: 'Pacifico',cursive;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    color: #477aff;
+    color: #417a4d;
+}
+/*html {*/
+    /*background: url(https://static.pexels.com/photos/262890/pexels-photo-262890.jpeg) no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+/*}*/
+body{
+    background-image: linear-gradient(120deg,#84fab0 0%,#8fd3f4 200%);
+}
+.col-md*,
+.row,
+div {
+    margin: 200px;
+    border: 2px solid black;
+    outline: 2px solid red;
+    outline-offset:100px;,
+}
+.navbar navbar-inverse{
+color: #8fd3f4;
+
+}
+.navbar-light,
+.navbar-inverse {
+    border-radius: 0px;
+    width: 100%;
+    color: #417a4d;
+}
+blockquote{
+    border-left: none;
+}
+
+blockquote:before{
+    display: block;
+    padding-left: 10px;
+    content: "\120C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a182f;
+    font-family: "Liberation Serif", Serif;
+
+}
+blockquote cite{
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+blockquote cite:before{
+    content: "\2014\2009";
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.bg-img{position:relative}
+.caption-topleft{position:absolute;left:0;top:0}
+.caption-topright{position:absolute;right:0;top:0}
+.caption-bottomleft{position:absolute;left:0;bottom:0}
+.caption-bottomright{position:absolute;right:0;bottom:0}
+.caption-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.caption-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.caption-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.caption-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.caption-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+
+/*style the demo*/
+img{width:100%;height:auto;}
+/*bg color*/
+.rose{color:#fff!important;background-color:#EC87C0!important}
+/*text*/
+.text-white,.text-white-hover:hover{color:#fff!important;}
+.text-black,.text-black-hover:hover{color:#000!important}
+.text-grey,.text-grey-hover:hover{color:#757575!important}
+.text-red,.text-red-hover:hover{color:#f44336!important}
+
+.large{font-size:20px!important}
+.text-right{text-align:right!important}
+/*margin and padding*/
+.margin{margin:16px!important;}
+.padding{padding:12px 16px!important}
+/*border*/
+.leftbar{border-left:6px solid #ccc!important; padding-left: 5px}
+.border-red{border-color:#f44336!important}
